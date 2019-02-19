@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,11 @@
   },
   "homepage": "https://github.com/y0h0h0/dm1#readme",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
-      "dotenv": "^6.2.0"
+    "request": "^2.88.0"
   },
   "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }

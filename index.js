@@ -3,7 +3,19 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 require('dotenv').config()
 
+
+const apis = require('./apis/testapi.js');
+
+
+
+
+
+
+
 const app = express();
+
+
+  app.use('/api/', apis);
 
   app.use(express.static('public'));
 
